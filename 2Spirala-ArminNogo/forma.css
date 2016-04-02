@@ -1,0 +1,202 @@
+okvirstranice{
+min-width: 1000px;
+}
+
+body{
+	background-image: url('pozadinau.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-family: sans-serif;
+	margin: 0;
+    padding: 0;
+}
+
+#naslov > p{
+	font-size: 45px;
+	font-family: arial;
+	text-align: center;
+	color: white;
+	background-image: url('pozadina.jpg');
+	padding-bottom: 3%;
+	padding-top: 3%;
+	margin: 0px;
+	transition: 2s ease-in-out;
+}
+
+#naslov p:hover{
+	letter-spacing: 20px;
+	color: #1a1aff;
+	text-shadow: 0px 24px 10px white;
+}
+
+.logo {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  float:left;
+  margin-right:3%;
+  margin-left: 15%;
+  margin-top: 1%;
+  padding: 7px;
+  border-top: 7px solid black;
+  border-right: 7px solid #0000cc;
+  border-bottom: 7px solid black;
+  border-left: 7px solid #0000cc;
+  -webkit-border-radius: 0 35px;
+  border-radius: 0 35px;
+  font: normal 33px/1 Georgia, serif;
+  color: #0000b3;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -webkit-box-shadow: 7px 10px 11px 4px #b3b3ff;
+  box-shadow: 7px 10px 11px 4px #b3b3ff;
+  text-shadow: 10px 7px 6px #4d4dff;
+  transition: 3s ease-in-out;
+}
+.logo:hover{
+	transform: rotate(-360deg);
+	background-color:#8080ff;
+	border-top: 7px solid #0000cc;
+	border-right: 7px solid black;
+	border-bottom: 7px solid #0000cc;
+	border-left: 7px solid black;
+	-webkit-box-shadow: 7px 10px 11px 4px #00004d;
+	box-shadow: 7px 10px 11px 4px #00004d;
+	color: white;
+}
+.logo1 {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  float:right;
+  margin-left:3%;
+  margin-right:15%;
+  margin-top:1%;
+  padding: 7px;
+  border-top: 7px solid black;
+  border-right: 7px solid #0000cc;
+  border-bottom: 7px solid black;
+  border-left: 7px solid #0000cc;
+  -webkit-border-radius: 0 35px;
+  border-radius: 0 35px;
+  font: normal 33px/1 Georgia, serif;
+  color: #0000b3;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -webkit-box-shadow: 7px 10px 11px 4px #b3b3ff;
+  box-shadow: 7px 10px 11px 4px #b3b3ff;
+  text-shadow: 10px 7px 6px #4d4dff;
+  transition: 3s ease-in-out;
+}
+.logo1:hover{
+	transform: rotate(360deg);
+	background-color:#8080ff;
+	border-top: 7px solid #0000cc;
+	border-right: 7px solid black;
+	border-bottom: 7px solid #0000cc;
+	border-left: 7px solid black;
+	-webkit-box-shadow: 7px 10px 11px 4px #00004d;
+	box-shadow: 7px 10px 11px 4px #00004d;
+	color: white;
+}
+
+hr{
+    height: 1%;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px #000033;
+}
+#meni{
+	background-color: white;
+}
+#meni > ul{
+	list-style: none;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 21px;
+	background-color: white;
+	margin: 0;
+	padding-top:4%;
+	padding-bottom:3%;
+}
+
+#meni > ul > li{
+	display: inline;
+	font-weight: bold;
+	padding-right: 2%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+#forma{
+	margin: auto;
+	width: 78vw;
+	border-style: solid;
+	border-color: white;
+	border-radius: 15%;
+	background-color: #ffff99;
+}
+form{
+	margin: auto;
+	width: 65vw;
+	height: 25vw;
+}
+.textbox{
+	display: inline-block;
+	float: right;
+	margin-right: 2%;
+	width: 30vw;
+	margin-left: 5%;
+	height: 2vw;
+	margin-bottom: 1%;
+	background-color: #e6f5ff;
+	border: solid 0.5px black;
+}
+.labela{
+	font-size: 1.5vw;
+}
+.dugme{
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+	margin-top: 2%;
+	height: 2vw;
+	width: 7.5vw;
+	font-size: 1.2vw;
+}
+#forma p{
+	margin-left: 2%;
+}
+#textarea{
+	display: inline-block;
+	float: right;
+	margin-right: 2%;
+	width: 29.7vw;
+	margin-left: 5%;
+	height: 7.5vw;
+	background-color: #e6f5ff;
+	border: solid 0.5px black;
+}
+.check{
+	height: 1vw;
+	width: 1vw;
+	margin-left: 3vw;
+}
+#radioprva{
+	margin-right:17.9vw;
+}
+#radiodruga{
+	margin-right:17.2vw;
+}
+.cjelina{
+	margin: 2%;
+}
+.ocisti{
+	clear:both;
+    line-height:0;
+}
